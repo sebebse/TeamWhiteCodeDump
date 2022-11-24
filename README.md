@@ -7,7 +7,7 @@
 | ExampleFile.java | A description of what it does |
 | AnotherFile.java | A description of what it does |
 
-##To-do
+## To-do
 - [ ] Convert block code into Java
 - [ ] Add arm movement program
 - [ ] Fun with camera
