@@ -4,8 +4,8 @@
 
 | File | Description |
 | ----------- | ----------- |
-| ExampleFile.java | A description of what it does |
-| AnotherFile.java | A description of what it does |
+| MainAuto.java | The main autonomous code, WIP of converting old block code + adding new things |
+| OldOpMode.java | An old program found on the host, not usable for 2022-2023 but useful for a reference |
 
 ## To-do
 - [ ] Convert block code into Java
