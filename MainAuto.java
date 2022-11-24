@@ -7,27 +7,30 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 
 
 @TeleOp
-
-public class MainTele extends LinearOpMode {
-    private DcMotor rightmotor;
-    private DcMotor leftmotor;
-    private DcMotor righttmotor;
-    private DcMotor lefttmotor;
+//r - right l - left f - front b - back m - motor s - servo
+public class MainAuto extends LinearOpMode {
+    private DcMotor RFm;
+    private DcMotor LFm;
+    private DcMotor RBm;
+    private DcMotor LBm;
     
     @Override
     public void runOpMode() {
-        rightmotor = hardwareMap.get(DcMotor.class, "right1");
-        leftmotor = hardwareMap.get(DcMotor.class, "left1");
-        righttmotor = hardwareMap.get(DcMotor.class, "right2");
-        lefttmotor = hardwareMap.get(DcMotor.class, "left2");
+        RFm = hardwareMap.get(DcMotor.class, "frontRight");
+        LFm = hardwareMap.get(DcMotor.class, "frontLeft");
+        RBm = hardwareMap.get(DcMotor.class, "backRight");
+        LBm = hardwareMap.get(DcMotor.class, "backLeft");
         
         waitForStart();
         
         while (opModeIsActive()) {
-            rightmotor.setPower(1);
-            leftmotor.setPower(1);
-            righttmotor.setPower(1);
-            lefttmotor.setPower(1);
+            //uses meccanum wheels to go right and waits 2500ms before stopping, flip signs in power to go left
+            RFm.setPower(-1);
+            LFm.setPower(1);
+            RBm.setPower(1);
+            LBm.setPower(-1);
+            sleep(2500);
+            break;
         }
     }
 }
