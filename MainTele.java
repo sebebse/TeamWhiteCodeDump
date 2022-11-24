@@ -11,8 +11,8 @@ public class MainTele extends OpMode {
     private DcMotor LFm;
     private DcMotor RBm;
     private DcMotor LBm;
-    double leftStick = gamepad1.left_stick_y;
-    double rightStick = gamepad1.right_stick_y;
+    double LS = gamepad1.left_stick_y;
+    double RS = gamepad1.right_stick_y;
     
     @Override
     public void init() {
@@ -28,10 +28,10 @@ public class MainTele extends OpMode {
     }
     @Override
     public void loop() {
-        LFm.setPower(leftStick);
-        LBm.setPower(leftStick);
-        RFm.setPower(rightStick);
-        RBm.setPower(rightStick);
+        LFm.setPower(LS);
+        LBm.setPower(LS);
+        RFm.setPower(RS);
+        RBm.setPower(RS);
     }
 
 }
