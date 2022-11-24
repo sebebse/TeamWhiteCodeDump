@@ -4,7 +4,7 @@
 
 | File | Description |
 | ----------- | ----------- |
-| MainAuto.java | The main autonomous code, WIP of converting old block code + adding new things |
+| MainAuto.java | The main autonomous code, WIP |
 | OldOpMode.java | An old program found on the host, not usable for 2022-2023 but useful for a reference |
 
 ## To-do
