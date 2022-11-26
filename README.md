@@ -8,7 +8,7 @@
 | OldOpMode.java | An old program found on the host, not usable for 2022-2023 but useful for a reference |
 
 ## To-do
-- [ ] Convert block code into Java
+- [x] Convert block code into Java
 - [ ] Add arm movement program
 - [ ] Fun with camera
 - [x] Be better
