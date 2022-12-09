@@ -40,8 +40,8 @@ public class MainTele extends OpMode {
             RFm.setPower(-1);
             RBm.setPower(1);
         } else {
-            LFm.setPower(LS);
-            LBm.setPower(LS);
+            LFm.setPower(-LS);
+            LBm.setPower(-LS);
             RFm.setPower(RS);
             RBm.setPower(RS);
         }
