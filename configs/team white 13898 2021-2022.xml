@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Expansion Hub Portal One" serialNumber="DQ3CPPHC" parentModuleAddress="1">
+    </LynxUsbDevice>
+</Robot>
