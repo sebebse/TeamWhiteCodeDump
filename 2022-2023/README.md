@@ -1,6 +1,6 @@
-# Aberhart Robotics Rebublic Team Alpha/White #13898 2023-2024
+# Aberhart Robotics Rebublic Team Alpha/White #13898 2022-2023
 
-**Java code dump for alpha team for last season (2023-2024/teamcode/)**
+**Java code dump for alpha team (teamcode/)**
 
 | File | Description |
 | ----------- | ----------- |
@@ -12,7 +12,7 @@
 | ServoTest.java | Test to see how servos work |
 | ColourTest.java | Test to see how colour sensor senses colours |
 
-**Config dump for alpha team for last season (2023-2024/configs/)**
+**Config dump for alpha team (configs/)**
 | File | Description |
 | ----------- | ----------- |
 | fullconfig23.xml | Main configuration used for finished robot |
@@ -24,4 +24,7 @@
 
 
 ## To-do
-- [ ] TBA
+- [x] Convert block code into Java
+- [x] Add arm movement program
+- [ ] Incorporation of colour sensor
+- [x] Be better
