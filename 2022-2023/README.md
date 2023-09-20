@@ -26,5 +26,5 @@
 ## To-do
 - [x] Convert block code into Java
 - [x] Add arm movement program
-- [ ] Incorporation of colour sensor
+- [x] Incorporation of colour sensor
 - [x] Be better
