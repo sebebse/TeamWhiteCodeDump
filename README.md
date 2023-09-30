@@ -1,6 +1,6 @@
 # Aberhart Robotics Rebublic Team Alpha/White #13898 2023-2024
 
-**Java code dump for alpha team from last season (2023-2024/teamcode/)**
+**Java code dump for alpha team from last season (2022-2023/teamcode/)**
 
 | File | Description |
 | ----------- | ----------- |
@@ -12,7 +12,7 @@
 | ServoTest.java | Test to see how servos work |
 | ColourTest.java | Test to see how colour sensor senses colours |
 
-**Config dump for alpha team from last season (2023-2024/configs/)**
+**Config dump for alpha team from last season (2022-2023/configs/)**
 | File | Description |
 | ----------- | ----------- |
 | fullconfig23.xml | Main configuration used for finished robot |
