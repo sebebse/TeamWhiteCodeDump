@@ -24,4 +24,6 @@
 
 
 ## To-do
-- [ ] TBA
+- [ ] Upload TeleOp code
+- [ ] create autonomous outline
+- [ ] Implement camera functions into autonomous
